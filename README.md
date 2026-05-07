@@ -22,7 +22,7 @@ hash = hash + ascii(caracter) + 31   ← por cada carácter
 índice = hash % n
 ```
 
-**Ejemplo con "Perez" (n=61):**
+**Ejemplo con "Perez" (n=61, valor primo generado aleatoriamente):**
 ```
 (0+80+31=111) → (111+101+31=243) → (243+114+31=388) → (388+101+31=520) → (520+122+31=673)
 673 % 61 = 2
