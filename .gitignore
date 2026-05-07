@@ -1,0 +1,17 @@
+# Archivos compilados de Java
+*.class
+*.jar
+
+# Carpetas de salida
+out/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
